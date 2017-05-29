@@ -1,6 +1,6 @@
 {
   "name": "reducer-generator-object-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A redux reducer-generator which builds a redux-reducer which matches against object literals.",
   "main": "dist/reducer-generator-object-map.js",
   "module": "src/main.js",
