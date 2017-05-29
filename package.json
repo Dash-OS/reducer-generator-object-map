@@ -1,9 +1,8 @@
 {
   "name": "reducer-generator-object-map",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A redux reducer-generator which builds a redux-reducer which matches against object literals.",
   "main": "dist/reducer-generator-object-map.js",
-  "module": "src/main.js",
   "author": "Braden R. Napier",
   "license": "MIT",
   "scripts": {
@@ -42,6 +41,5 @@
     "webpack": "^2.6.1",
     "webpack-node-externals": "^1.6.0",
     "yargs": "^8.0.1"
-  },
-  "dependencies": {}
+  }
 }
