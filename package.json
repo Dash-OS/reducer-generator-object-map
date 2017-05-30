@@ -1,6 +1,6 @@
 {
   "name": "reducer-generator-object-map",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A redux reducer-generator which builds a redux-reducer which matches against object literals.",
   "main": "dist/reducer-generator-object-map.js",
   "author": "Braden R. Napier",
@@ -23,6 +23,13 @@
     "redux-saga-process",
     "reducer-generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dash-OS/reducer-generator-object-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dash-OS/reducer-generator-object-map/issues"
+  },
   "devDependencies": {
     "app-root-dir": "^1.0.2",
     "babel-cli": "^6.24.1",
