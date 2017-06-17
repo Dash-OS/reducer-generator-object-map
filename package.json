@@ -81,7 +81,9 @@
     "sourceMap": false,
     "instrument": false
   },
-  "maintainers": [],
+  "maintainers": [
+    "Braden Napier (https://github.com/bradennapier)"
+  ],
   "contributors": [
     "Braden Napier (https://github.com/bradennapier)"
   ]
