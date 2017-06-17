@@ -7,25 +7,14 @@
   "license": "MIT",
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc mocha --recursive --require ./test/setup.js ./test/tests/*.js",
+    "compile": "projectz compile",
+    "posttest": "npm run compile",
     "prepublish": "npm run test && npm run build:prod",
     "build:prod": "cross-env NODE_ENV=production BABEL_ENV=production babel-node config/scripts/build",
     "build": "babel-node config/scripts/build",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "pre-push": "test",
-  "nyc": {
-    "check-coverage": true,
-    "produce-source-map": true,
-    "reporter": [
-      "lcov",
-      "text"
-    ],
-    "require": [
-      "babel-register"
-    ],
-    "sourceMap": false,
-    "instrument": false
-  },
   "keywords": [
     "react",
     "react-native",
@@ -44,6 +33,13 @@
   },
   "bugs": {
     "url": "https://github.com/Dash-OS/reducer-generator-object-map/issues"
+  },
+  "badges": {
+    "list": [
+      "travisci",
+      "npmversion",
+      "npmdownloads"
+    ]
   },
   "devDependencies": {
     "app-root-dir": "^1.0.2",
@@ -71,5 +67,22 @@
     "webpack": "^2.6.1",
     "webpack-node-externals": "^1.6.0",
     "yargs": "^8.0.1"
-  }
+  },
+  "nyc": {
+    "check-coverage": true,
+    "produce-source-map": true,
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "require": [
+      "babel-register"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  },
+  "maintainers": [],
+  "contributors": [
+    "Braden Napier (https://github.com/bradennapier)"
+  ]
 }
