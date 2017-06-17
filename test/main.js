@@ -35,7 +35,7 @@ const generateReducer = () => createObjectMapReducer(
 )
 
       
-describe('Generate & Test Reducer', function() {
+describe('- Generate & Test Reducer', function() {
   
   
   describe('Generate Object Map Reducer', function() {
@@ -60,7 +60,7 @@ describe('Generate & Test Reducer', function() {
     
   })
     
-  describe('Test Matched Action Dispatched', function() {
+  describe('- [MATCH] | Test Action Dispatched', function() {
     
     const reducer = generateReducer()
     let anotherState, currentState = reducer(
@@ -115,7 +115,7 @@ describe('Generate & Test Reducer', function() {
   
   })
   
-  describe('Test Not Matched Action Dispatched', function() {
+  describe('- [NO MATCH] | Test Action Dispatched', function() {
     const reducer = generateReducer()
     
     let currentState = reducer(
