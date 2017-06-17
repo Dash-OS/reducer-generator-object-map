@@ -14,7 +14,6 @@
     "build": "babel-node config/scripts/build",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
-  "pre-push": "test",
   "keywords": [
     "react",
     "react-native",
@@ -69,6 +68,7 @@
     "mocha": "^3.4.2",
     "nyc": "^11.0.2",
     "pre-push": "^0.1.1",
+    "projectz": "^1.4.0",
     "rimraf": "^2.6.1",
     "webpack": "^2.6.1",
     "webpack-node-externals": "^1.6.0",
