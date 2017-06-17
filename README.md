@@ -1,4 +1,9 @@
-<!-- TITLE -->
+<!-- TITLE/ -->
+
+<h1>reducer-generator-object-map</h1>
+
+<!-- /TITLE -->
+
 
 <!-- BADGES/ -->
 
@@ -8,7 +13,13 @@
 
 <!-- /BADGES -->
 
-<!-- DESCRIPTION -->
+
+<!-- DESCRIPTION/ -->
+
+A redux reducer-generator which builds a redux-reducer which matches against object literals.
+
+<!-- /DESCRIPTION -->
+
 
 A `reducer-generator` which builds a redux-reducer which matches against 
 object literals.
@@ -45,6 +56,40 @@ const system = createObjectMapReducer({ /* initial state */ }, {
 }, /* You may pass extra args that will be passed to the reducer(s) */ )
 ```
 
-<!-- HISTORY -->
-<!-- BACKERS -->
+<!-- HISTORY/ -->
+
+<h2>History</h2>
+
+<a href="https://github.com/Dash-OS/reducer-generator-object-map/releases">Discover the release history by heading on over to the releases page.</a>
+
+<!-- /HISTORY -->
+
+
+<!-- BACKERS/ -->
+
+<h2>Backers</h2>
+
+<h3>Maintainers</h3>
+
+These amazing people are maintaining this project:
+
+<ul><li><a href="https://github.com/bradennapier">Braden Napier</a> — <a href="https://github.com/Dash-OS/reducer-generator-object-map/commits?author=bradennapier" title="View the GitHub contributions of Braden Napier on repository Dash-OS/reducer-generator-object-map">view contributions</a></li></ul>
+
+<h3>Sponsors</h3>
+
+No sponsors yet! Will you be the first?
+
+
+
+<h3>Contributors</h3>
+
+These amazing people have contributed code to this project:
+
+<ul><li><a href="https://github.com/bradennapier">Braden Napier</a> — <a href="https://github.com/Dash-OS/reducer-generator-object-map/commits?author=bradennapier" title="View the GitHub contributions of Braden Napier on repository Dash-OS/reducer-generator-object-map">view contributions</a></li></ul>
+
+
+
+<!-- /BACKERS -->
+
+
 <!-- LICENSE -->
