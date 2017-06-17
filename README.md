@@ -1,6 +1,14 @@
-# reducer-generator-object-map
+<!-- TITLE -->
 
-<!-- BADGES -->
+<!-- BADGES/ -->
+
+<span class="badge-travisci"><a href="http://travis-ci.org/Dash-OS/reducer-generator-object-map" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/Dash-OS/reducer-generator-object-map/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/reducer-generator-object-map" title="View this project on NPM"><img src="https://img.shields.io/npm/v/reducer-generator-object-map.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/reducer-generator-object-map" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/reducer-generator-object-map.svg" alt="NPM downloads" /></a></span>
+
+<!-- /BADGES -->
+
+<!-- DESCRIPTION -->
 
 A `reducer-generator` which builds a redux-reducer which matches against 
 object literals.
@@ -36,3 +44,8 @@ const system = createObjectMapReducer({ /* initial state */ }, {
   })
 }, /* You may pass extra args that will be passed to the reducer(s) */ )
 ```
+
+<!-- HISTORY -->
+<!-- CONTRIBUTE -->
+<!-- BACKERS -->
+<!-- LICENSE -->
