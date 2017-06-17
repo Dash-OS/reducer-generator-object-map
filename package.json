@@ -37,6 +37,7 @@
     "list": [
       "npmversion",
       "npmdownloads",
+      "daviddm",
       "travisci",
       "coveralls",
       "paypal",
