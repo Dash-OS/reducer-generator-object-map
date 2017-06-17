@@ -47,7 +47,7 @@
       "githubstar"
     ],
     "config": {
-      "paypalURL": "paypal.me/bradynapier",
+      "paypalURL": "https://paypal.me/bradynapier",
       "githubUsername": "bradennapier",
       "githubSlug": "reducer-generator-object-map"
     }
