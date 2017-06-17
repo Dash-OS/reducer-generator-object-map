@@ -1,5 +1,7 @@
 # reducer-generator-object-map
 
+[![Coverage Status](https://coveralls.io/repos/github/Dash-OS/reducer-generator-object-map/badge.svg)](https://coveralls.io/github/Dash-OS/reducer-generator-object-map)
+
 A `reducer-generator` which builds a redux-reducer which matches against 
 object literals.
 
