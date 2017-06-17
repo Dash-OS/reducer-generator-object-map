@@ -11,6 +11,7 @@
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/reducer-generator-object-map" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/reducer-generator-object-map.svg" alt="NPM downloads" /></a></span>
 <span class="badge-travisci"><a href="http://travis-ci.org/Dash-OS/reducer-generator-object-map" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/Dash-OS/reducer-generator-object-map/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-coveralls"><a href="https://coveralls.io/r/Dash-OS/reducer-generator-object-map" title="View this project's coverage on Coveralls"><img src="https://img.shields.io/coveralls/Dash-OS/reducer-generator-object-map.svg" alt="Coveralls Coverage Status" /></a></span>
+<span class="badge-paypal"><a href="paypal.me/bradynapier" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
 
 <!-- /BADGES -->
 
@@ -80,7 +81,7 @@ These amazing people are maintaining this project:
 
 No sponsors yet! Will you be the first?
 
-
+<span class="badge-paypal"><a href="paypal.me/bradynapier" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
 
 <h3>Contributors</h3>
 

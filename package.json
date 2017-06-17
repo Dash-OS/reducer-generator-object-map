@@ -39,12 +39,18 @@
       "npmdownloads",
       "travisci",
       "coveralls",
+      "paypal",
       "githubfollow",
       "hackernewssubmit",
       "redditsubmit",
       "twittertweet",
       "githubstar"
-    ]
+    ],
+    "config": {
+      "paypalURL": "paypal.me/bradynapier",
+      "githubUsername": "bradennapier",
+      "githubSlug": "reducer-generator-object-map"
+    }
   },
   "devDependencies": {
     "app-root-dir": "^1.0.2",
