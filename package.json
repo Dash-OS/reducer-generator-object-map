@@ -6,12 +6,26 @@
   "author": "Braden R. Napier",
   "license": "MIT",
   "scripts": {
-    "test": "cross-env BABEL_ENV=commonjs NODE_ENV=test mocha --compilers js:babel-register --recursive --require ./test/setup.js",
+    "test": "cross-env NODE_ENV=test nyc mocha --recursive --require ./test/setup.js ./test/tests/*.js",
     "prepublish": "npm run test && npm run build:prod",
     "build:prod": "cross-env NODE_ENV=production BABEL_ENV=production babel-node config/scripts/build",
-    "build": "babel-node config/scripts/build"
+    "build": "babel-node config/scripts/build",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "pre-push": "test",
+  "nyc": {
+    "check-coverage": true,
+    "produce-source-map": true,
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "require": [
+      "babel-register"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  },
   "keywords": [
     "react",
     "react-native",
@@ -35,6 +49,7 @@
     "app-root-dir": "^1.0.2",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-plugin-istanbul": "^4.1.4",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-babili": "^0.1.2",
@@ -44,11 +59,13 @@
     "babili-webpack-plugin": "^0.1.1",
     "chai": "^4.0.2",
     "colors": "^1.1.2",
-    "cross-env": "^5.0.0",
+    "coveralls": "^2.13.1",
+    "cross-env": "^5.0.1",
     "expect": "^1.20.2",
     "happypack": "^3.1.0",
     "lodash-webpack-plugin": "^0.11.4",
     "mocha": "^3.4.2",
+    "nyc": "^11.0.2",
     "pre-push": "^0.1.1",
     "rimraf": "^2.6.1",
     "webpack": "^2.6.1",

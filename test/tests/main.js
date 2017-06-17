@@ -2,7 +2,7 @@ import {
   expect
 } from 'chai'
 
-import createObjectMapReducer from '../src/main'
+import createObjectMapReducer from '../../src/main'
 
 const initialState = { 
   initialKey: 'initialValue' 
@@ -55,6 +55,20 @@ describe('- Generate & Test Reducer', function() {
       )
       
       expect(currentState).to.deep.include(initialState)
+      
+    })
+    
+  })
+  
+  describe('Handles Invalid Arguments', function() {
+    
+    it('should throw an error if the handlers argument is not an object', function() {
+      expect(
+        () => createObjectMapReducer(
+          initialState,
+          'hello'
+        )
+      ).to.throw(TypeError)
       
     })
     

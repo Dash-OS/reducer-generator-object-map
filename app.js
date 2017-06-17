@@ -20,6 +20,12 @@ export default {
         presets: [ 
           ['babili', {}],
         ]
+      },
+      test: {
+        plugins: [
+          'istanbul'
+        ],
+        sourceMaps: 'inline'
       }
     }
   },
