@@ -7,9 +7,10 @@
 
 <!-- BADGES/ -->
 
-<span class="badge-travisci"><a href="http://travis-ci.org/Dash-OS/reducer-generator-object-map" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/Dash-OS/reducer-generator-object-map/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/reducer-generator-object-map" title="View this project on NPM"><img src="https://img.shields.io/npm/v/reducer-generator-object-map.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/reducer-generator-object-map" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/reducer-generator-object-map.svg" alt="NPM downloads" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/Dash-OS/reducer-generator-object-map" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/Dash-OS/reducer-generator-object-map/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-coveralls"><a href="https://coveralls.io/r/Dash-OS/reducer-generator-object-map" title="View this project's coverage on Coveralls"><img src="https://img.shields.io/coveralls/Dash-OS/reducer-generator-object-map.svg" alt="Coveralls Coverage Status" /></a></span>
 
 <!-- /BADGES -->
 
@@ -92,4 +93,16 @@ These amazing people have contributed code to this project:
 <!-- /BACKERS -->
 
 
-<!-- LICENSE -->
+<!-- LICENSE/ -->
+
+<h2>License</h2>
+
+Unless stated otherwise all works are:
+
+<ul><li>Copyright &copy; Braden R. Napier</li></ul>
+
+and licensed under:
+
+<ul><li><a href="http://spdx.org/licenses/MIT.html">MIT License</a></li></ul>
+
+<!-- /LICENSE -->

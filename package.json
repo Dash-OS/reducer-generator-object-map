@@ -36,9 +36,15 @@
   },
   "badges": {
     "list": [
-      "travisci",
       "npmversion",
-      "npmdownloads"
+      "npmdownloads",
+      "travisci",
+      "coveralls",
+      "githubfollow",
+      "hackernewssubmit",
+      "redditsubmit",
+      "twittertweet",
+      "githubstar"
     ]
   },
   "devDependencies": {
