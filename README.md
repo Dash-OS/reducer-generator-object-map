@@ -46,6 +46,5 @@ const system = createObjectMapReducer({ /* initial state */ }, {
 ```
 
 <!-- HISTORY -->
-<!-- CONTRIBUTE -->
 <!-- BACKERS -->
 <!-- LICENSE -->
