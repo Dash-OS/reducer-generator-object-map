@@ -60,7 +60,7 @@ describe('- Generate & Test Reducer', function() {
     
   })
     
-  describe('- [MATCH] | Test Action Dispatched', function() {
+  describe('[MATCH] | Test Action Dispatched', function() {
     
     const reducer = generateReducer()
     let anotherState, currentState = reducer(
@@ -115,7 +115,7 @@ describe('- Generate & Test Reducer', function() {
   
   })
   
-  describe('- [NO MATCH] | Test Action Dispatched', function() {
+  describe('[NO MATCH] | Test Action Dispatched', function() {
     const reducer = generateReducer()
     
     let currentState = reducer(
