@@ -19,7 +19,7 @@
 
 <!-- DESCRIPTION/ -->
 
-A redux reducer-generator which builds a redux-reducer which matches against object literals.
+A redux reducer-generator that builds a redux-reducer which matches against object literals.
 
 <!-- /DESCRIPTION -->
 
