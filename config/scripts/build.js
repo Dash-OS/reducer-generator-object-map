@@ -19,7 +19,7 @@ log({
   message: 'Starting Webpack Compiltation',
 });
 
-exec(`rimraf ${path.resolve(rootDir, 'dist')}`);
+exec(`rimraf '${path.resolve(rootDir, 'dist')}'`);
 
 compiler.run((err, stats) => {
   if (err) {
