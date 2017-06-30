@@ -24,7 +24,7 @@ A redux reducer-generator that builds a redux-reducer which matches against obje
 <!-- /DESCRIPTION -->
 
 
-> You may pass extra arguments when creating the reducer and when reducing. 
+> You may pass extra arguments when creating the reducer and when reducing.
 > The resulting arguments will be `(...initialArgs, ...reducerArgs)`.
 
 ### Installation
