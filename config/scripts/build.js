@@ -1,7 +1,5 @@
 import webpack from 'webpack';
-import handleRootDir from 'app-root-dir';
-import path from 'path';
-import { exec, log } from '../utils';
+import { log } from '../utils';
 import webpackConfigurationFactory from '../webpack';
 
 /*
@@ -9,8 +7,6 @@ import webpackConfigurationFactory from '../webpack';
 */
 
 const webpackConfig = webpackConfigurationFactory({});
-
-const rootDir = handleRootDir.get();
 
 const compiler = webpack(webpackConfig);
 
