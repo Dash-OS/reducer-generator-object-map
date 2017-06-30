@@ -1,17 +1,17 @@
-import webpack from 'webpack'
-import BabiliPlugin from 'babili-webpack-plugin'
-import LodashModuleReplacementPlugin from 'lodash-webpack-plugin'
+import webpack from 'webpack';
+// import BabiliPlugin from 'babili-webpack-plugin';
+import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
 
 export default [
   new webpack.DefinePlugin({
-    'process.env.NODE_ENV': process.env.NODE_ENV
+    'process.env.NODE_ENV': process.env.NODE_ENV,
   }),
   new LodashModuleReplacementPlugin({
-    paths: true
+    paths: true,
   }),
-  ...process.env.NODE_ENV === 'production'
+  ...(process.env.NODE_ENV === 'production'
     ? [
-      // new BabiliPlugin(),
+        // new BabiliPlugin(),
       new webpack.LoaderOptionsPlugin({
         minimize: true,
       }),
@@ -30,5 +30,5 @@ export default [
         },
       }),
     ]
-    : []
-]
+    : []),
+];

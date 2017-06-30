@@ -1,8 +1,8 @@
 import webpack from 'webpack';
+import handleRootDir from 'app-root-dir';
 import path from 'path';
 import { exec, log } from '../utils';
 import webpackConfigurationFactory from '../webpack';
-import rootDir from 'app-root-dir';
 
 /*
   Our Factory takes a config object and returns a webpack configuration
@@ -10,7 +10,7 @@ import rootDir from 'app-root-dir';
 
 const webpackConfig = webpackConfigurationFactory({});
 
-const root_dir = rootDir.get();
+const rootDir = handleRootDir.get();
 
 const compiler = webpack(webpackConfig);
 
@@ -19,7 +19,7 @@ log({
   message: 'Starting Webpack Compiltation',
 });
 
-exec(`rimraf ${path.resolve(root_dir, 'dist')}`);
+exec(`rimraf ${path.resolve(rootDir, 'dist')}`);
 
 compiler.run((err, stats) => {
   if (err) {

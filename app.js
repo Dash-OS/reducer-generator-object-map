@@ -1,33 +1,29 @@
 export default {
   name: 'reducer-generator-object-map',
-  
+
   webpack: {
     libraryTarget: 'umd',
   },
-  
+
   babel: {
-    plugins: [
-      'transform-class-properties'
-    ],
+    plugins: ['transform-class-properties'],
     presets: [
       'stage-0',
-      ['env', {
-        modules: false
-      }],
+      [
+        'env',
+        {
+          modules: false,
+        },
+      ],
     ],
     env: {
       production: {
-        presets: [ 
-          ['babili', {}],
-        ]
+        presets: [['babili', {}]],
       },
       test: {
-        plugins: [
-          'istanbul'
-        ],
-        sourceMaps: 'inline'
-      }
-    }
+        plugins: ['istanbul'],
+        sourceMaps: 'inline',
+      },
+    },
   },
-  
-}
+};
